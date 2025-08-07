@@ -28,8 +28,7 @@ def contestants_bids(num_contestants, min_bid, max_bid):
                 if min_bid <= bid <= max_bid:
                     bids.append(bid)
                     break
-                else:
-                    print("Bid out of range.")
+                print("Bid out of range.")
             except ValueError:
                 print("Invalid input. Enter a number.")
     return bids
